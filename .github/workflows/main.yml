@@ -15,6 +15,5 @@ jobs:
    steps:
     - run: |
       echo "The jobs was trigrerred by Event from Anshul: ${{ gitub.event_name }}"
-      echo "THe name of branch is ${{ github.ref }}"
+      echo "THe name of branch is . "
     - run: tree -a
-    
